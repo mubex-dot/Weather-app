@@ -1,0 +1,20 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+}
+
+/* =========================TYPOGRAPHY========================= */
+
+body{
+    background-color: #d5d4d4;
+}
+
+/* =========================CLASSES========================= */
+
+.container{
+    max-width: 1080px;
+    margin: 1.2em auto;
+}
