@@ -9,7 +9,8 @@ function App() {
 
   return (
     <div className="container">
-      <Search onSearchChange={handleThisChange} />
+      <Search onSearchChange={handleThisChange} />{" "}
+      {/* Transfers onSearchChange to Search.jsx  */}
       <CurrentWeather />
     </div>
   );
