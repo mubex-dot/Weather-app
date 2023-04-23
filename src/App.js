@@ -1,6 +1,7 @@
 import Search from "./components/search/Search";
 import CurrentWeather from "./components/current-weather/currentWeather";
 import "./App.css";
+import { Box, Container } from "@mui/material";
 
 function App() {
   function handleThisChange(searchData) {
@@ -8,11 +9,11 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <Search onSearchChange={handleThisChange} />{" "}
+    <Container maxWidth="xl">
+      <Search onSearchChange={handleThisChange} />
       {/* Transfers onSearchChange to Search.jsx  */}
       <CurrentWeather />
-    </div>
+    </Container>
   );
 }
 
