@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: "Nunito", sans-serif;
 }
 
 * {
@@ -13,8 +14,3 @@ body {
 }
 
 /* =========================CLASSES========================= */
-
-.container {
-  max-width: 90%;
-  margin: 1.2em auto;
-}
